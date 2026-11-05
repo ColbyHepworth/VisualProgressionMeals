@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingStyleDef>
+    <defName>VPMO_MealSimple_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexSimple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+  </ThingStyleDef>
+</Defs>

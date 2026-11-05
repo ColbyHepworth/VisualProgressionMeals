@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath[text()="Things/Item/Meal/RetexSimple"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Item/Meal/Simple</texPath>
+          </value>
+        </li>
+        <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Item/VTE_Meal/Simple</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_MealVariants</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/drawRotated</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealSimple"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealSimple"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealSimple_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealSimple"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealSimple_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+</Patch>
