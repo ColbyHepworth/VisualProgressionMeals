@@ -17,6 +17,7 @@ This mod contains no art. It uses Medieval Overhaul's own images.</description>
     <li>
       <packageId>groovy.visualprogression.framework</packageId>
       <displayName>Visual Progression Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3834891951</steamWorkshopUrl>
       <downloadUrl>https://github.com/ColbyHepworth/VisualProgressionFramework</downloadUrl>
     </li>
     <li>

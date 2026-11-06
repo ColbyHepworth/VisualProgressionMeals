@@ -6,6 +6,8 @@ keep their look until they're eaten, so the change happens slowly. Meals that tr
 pawns carry, follow that faction's age instead. Nutrient paste from a dispenser always uses the normal art. Dispensers
 need power, which usually comes with the industrial age.
 
+[Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3834892583)
+
 Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one,
 your colony stays at the age it starts in, so its meals never change.
 
@@ -19,7 +21,7 @@ It works with Medieval Overhaul's "Retexture vanilla meal textures" setting on o
 Vanilla Textures Expanded active, the normal art is Vanilla Textures Expanded's, even with its own meal texture
 setting off.
 
-Requires [Visual Progression Framework](https://github.com/ColbyHepworth/VisualProgressionFramework) and
+Requires [Visual Progression Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3834891951) and
 [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926).
 
 ## License
