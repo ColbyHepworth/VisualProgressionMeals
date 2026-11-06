@@ -56,6 +56,13 @@
     </graphicData>
   </ThingStyleDef>
 
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealNutrientPaste_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexNutrientPaste</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
   <!-- Medieval Overhaul draws its survival meal rotated, unlike its other meals. -->
   <ThingStyleDef ParentName="VPMO_MealStyleBase">
     <defName>VPMO_MealSurvivalPack_Medieval</defName>

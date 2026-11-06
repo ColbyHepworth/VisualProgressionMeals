@@ -191,6 +191,33 @@
     </nomatch>
   </Operation>
 
+  <!-- Nutrient paste meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealNutrientPaste"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealNutrientPaste"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealNutrientPaste_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealNutrientPaste"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealNutrientPaste_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
   <!-- Packaged survival meal -->
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/comps</xpath>
