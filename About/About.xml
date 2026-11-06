@@ -3,14 +3,16 @@
   <name>Visual Progression: Medieval Overhaul Meals</name>
   <author>Groovy</author>
   <packageId>groovy.visualprogression.medievaloverhaulmeals</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://github.com/ColbyHepworth/VisualProgressionMedievalOverhaulMeals</url>
   <supportedVersions>
     <li>1.7</li>
   </supportedVersions>
-  <description>
-    Simple, fine and lavish meals, packaged survival meals and nutrient paste made before your colony reaches the industrial age use Medieval Overhaul's meal art.
-    Meals made after use the normal art. Old meals keep their look until they're eaten, so the change happens slowly.
-    This mod contains no art. It uses Medieval Overhaul's own images.
-  </description>
+  <description>Simple, fine and lavish meals and packaged survival meals made before your colony reaches the industrial age use Medieval Overhaul's meal art, and so does nutrient paste you start with or get from other factions. Meals made after use the normal art. Old meals keep their look until they're eaten, so the change happens slowly.
+
+Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one, your colony stays at the age it starts in, so its meals never change.
+
+This mod contains no art. It uses Medieval Overhaul's own images.</description>
   <modDependencies>
     <li>
       <packageId>groovy.visualprogression.framework</packageId>
