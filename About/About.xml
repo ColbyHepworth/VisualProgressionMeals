@@ -6,13 +6,16 @@
   <supportedVersions>
     <li>1.7</li>
   </supportedVersions>
-  <description>Meals cooked before your colony reaches the industrial age use Medieval Overhaul's meal art. Meals cooked after use the normal art. Old meals keep their look until they're eaten, so the change happens slowly.
-
-This mod contains no art. It uses Medieval Overhaul's own images.</description>
+  <description>
+    Simple, fine and lavish meals and packaged survival meals made before your colony reaches the industrial age use Medieval Overhaul's meal art.
+    Meals made after use the normal art. Old meals keep their look until they're eaten, so the change happens slowly.
+    This mod contains no art. It uses Medieval Overhaul's own images.
+  </description>
   <modDependencies>
     <li>
       <packageId>groovy.visualprogression.framework</packageId>
       <displayName>Visual Progression Framework</displayName>
+      <downloadUrl>https://github.com/ColbyHepworth/VisualProgressionFramework</downloadUrl>
     </li>
     <li>
       <packageId>DankPyon.Medieval.Overhaul</packageId>

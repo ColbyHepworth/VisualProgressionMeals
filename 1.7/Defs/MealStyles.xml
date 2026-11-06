@@ -1,11 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingStyleDef>
+  <ThingStyleDef Name="VPMO_MealStyleBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
     <defName>VPMO_MealSimple_Medieval</defName>
     <graphicData>
       <texPath>Things/Item/Meal/RetexSimple</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-      <drawRotated>false</drawRotated>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealFine_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealFineVeg_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexFineVeg</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealFineMeat_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexFineMeat</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealLavish_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealLavishVeg_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexLavishVeg</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealLavishMeat_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexLavishMeat</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Medieval Overhaul draws its survival meal rotated, unlike its other meals. -->
+  <ThingStyleDef ParentName="VPMO_MealStyleBase">
+    <defName>VPMO_MealSurvivalPack_Medieval</defName>
+    <graphicData>
+      <texPath>Things/Item/Meal/RetexSurvivalPack</texPath>
+      <drawRotated>true</drawRotated>
     </graphicData>
   </ThingStyleDef>
 </Defs>

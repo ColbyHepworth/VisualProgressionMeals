@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Gives each meal Medieval Overhaul's art when it's made up to the medieval age. -->
 <Patch>
 
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath[text()="Things/Item/Meal/RetexSimple"]</xpath>
-    <match Class="PatchOperationSequence">
-      <operations>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath</xpath>
-          <value>
-            <texPath>Things/Item/Meal/Simple</texPath>
-          </value>
-        </li>
-        <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath</xpath>
-          <value>
-            <texPath>Things/Item/VTE_Meal/Simple</texPath>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/graphicClass</xpath>
-          <value>
-            <graphicClass>Graphic_MealVariants</graphicClass>
-          </value>
-        </li>
-        <li Class="PatchOperationRemove">
-          <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/drawRotated</xpath>
-        </li>
-      </operations>
-    </match>
-  </Operation>
-
+  <!-- Simple meal -->
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="MealSimple"]/comps</xpath>
     <match Class="PatchOperationAdd">
@@ -49,6 +22,195 @@
           <li Class="VisualProgression.CompProperties_AgeLook">
             <looks>
               <li><upToAge>Medieval</upToAge><style>VPMO_MealSimple_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Fine meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealFine"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealFine"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealFine_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealFine"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealFine_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Vegetarian fine meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealFine_Veg"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealFine_Veg"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealFineVeg_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealFine_Veg"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealFineVeg_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Carnivore fine meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealFine_Meat"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealFine_Meat"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealFineMeat_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealFine_Meat"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealFineMeat_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Lavish meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealLavish"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealLavish"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealLavish_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealLavish"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealLavish_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Vegetarian lavish meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealLavish_Veg"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealLavish_Veg"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealLavishVeg_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealLavish_Veg"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealLavishVeg_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Carnivore lavish meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealLavish_Meat"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealLavish_Meat"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealLavishMeat_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealLavish_Meat"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealLavishMeat_Medieval</style></li>
+            </looks>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Packaged survival meal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/comps</xpath>
+      <value>
+        <li Class="VisualProgression.CompProperties_AgeLook">
+          <looks>
+            <li><upToAge>Medieval</upToAge><style>VPMO_MealSurvivalPack_Medieval</style></li>
+          </looks>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MealSurvivalPack"]</xpath>
+      <value>
+        <comps>
+          <li Class="VisualProgression.CompProperties_AgeLook">
+            <looks>
+              <li><upToAge>Medieval</upToAge><style>VPMO_MealSurvivalPack_Medieval</style></li>
             </looks>
           </li>
         </comps>
