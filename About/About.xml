@@ -12,7 +12,11 @@
 
 Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one, your colony stays at the age it starts in, so its meals never change.
 
-This mod contains no art. It uses Medieval Overhaul's own images.</description>
+This mod contains no art. It uses Medieval Overhaul's own images.
+
+Safe to add to an existing save: Meals already made keep the normal art, and meals made after get the look.
+
+Safe to remove: Meals with the medieval look go back to the normal art. </description>
   <modDependencies>
     <li>
       <packageId>groovy.visualprogression.framework</packageId>

@@ -21,6 +21,13 @@ It works with Medieval Overhaul's "Retexture vanilla meal textures" setting on o
 Vanilla Textures Expanded active, the normal art is Vanilla Textures Expanded's, even with its own meal texture
 setting off.
 
+## Adding and removing
+
+- **Safe to add to an existing save.** Meals already made keep the normal art, and meals made after get the look.
+- **Safe to remove.** Meals with the medieval look go back to the normal art. 
+
+## Requirements
+
 Requires [Visual Progression Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3834891951) and
 [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926).
 
