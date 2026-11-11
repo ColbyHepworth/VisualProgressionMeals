@@ -30,5 +30,6 @@ Rustic Meal Retexture after Medieval Overhaul.
 
 ## License
 
-MIT. The preview image shows art from Medieval Overhaul and RimWorld, which belongs to their authors and isn't covered
-by this license.
+MIT. The preview and the images in `Workshop/` show art from Rustic Meal Retexture, Medieval Overhaul, Vanilla Cooking
+Expanded, Vanilla Cooking Expanded - Stews and RimWorld, which belongs to their authors and isn't covered by this
+license.
