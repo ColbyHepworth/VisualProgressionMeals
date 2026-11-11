@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Puts back the normal art that Rustic Meal Retexture replaces. It fails when Rustic's art isn't on the item, so a wrong load order shows in the log. -->
+<Patch>
+
+  <!-- Simple stew -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedStewSimple"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_StewSimple"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_StewSimple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedStewSimple"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Fine stew -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedStewFine"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_StewFine"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_StewFine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedStewFine"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lavish stew -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedStewLavish"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_StewLavish"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_StewLavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedStewLavish"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rustic Meal Retexture's looks for the base meals. They load whenever that mod is active, so a meal saved with one keeps it after Medieval Overhaul is added. -->
+<Defs>
+
+  <!-- Simple meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealSimple_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Simple</texPath>
+      <graphicClass>Graphic_MealVariants</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Fine meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealFine_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Fine</texPath>
+      <graphicClass>Graphic_MealVariants</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Vegetarian fine meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealFine_Veg_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/FineVeg</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Carnivore fine meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealFine_Meat_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/FineMeat</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Lavish meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealLavish_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Lavish</texPath>
+      <graphicClass>Graphic_MealVariants</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Vegetarian lavish meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealLavish_Veg_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/LavishVeg</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Carnivore lavish meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealLavish_Meat_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/LavishMeat</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Nutrient paste meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealNutrientPaste_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/NutrientPaste</texPath>
+      <graphicClass>Graphic_MealVariants</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Packaged survival meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_MealSurvivalPack_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/SurvivalPack</texPath>
+      <graphicClass>Graphic_MealVariants</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

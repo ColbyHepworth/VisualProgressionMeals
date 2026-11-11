@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Puts back the normal art that Rustic Meal Retexture replaces. It fails when Rustic's art isn't on the item, so a wrong load order shows in the log. -->
+<Patch>
+
+  <!-- Simple meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath[text()="RusticMeal/Simple"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/Simple</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/Simple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealSimple"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Fine meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealFine"]/graphicData/texPath[text()="RusticMeal/Fine"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/Fine</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealFine"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/Fine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealFine"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Vegetarian fine meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealFine_Veg"]/graphicData/texPath[text()="RusticMeal/FineVeg"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/FineVeg</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealFine_Veg"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/FineVeg</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealFine_Veg"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Carnivore fine meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealFine_Meat"]/graphicData/texPath[text()="RusticMeal/FineMeat"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/FineMeat</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealFine_Meat"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/FineMeat</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealFine_Meat"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lavish meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealLavish"]/graphicData/texPath[text()="RusticMeal/Lavish"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/Lavish</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealLavish"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/Lavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealLavish"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Vegetarian lavish meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealLavish_Veg"]/graphicData/texPath[text()="RusticMeal/LavishVeg"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/LavishVeg</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealLavish_Veg"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/LavishVeg</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealLavish_Veg"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Carnivore lavish meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealLavish_Meat"]/graphicData/texPath[text()="RusticMeal/LavishMeat"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/LavishMeat</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealLavish_Meat"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/LavishMeat</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealLavish_Meat"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Nutrient paste meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealNutrientPaste"]/graphicData/texPath[text()="RusticMeal/NutrientPaste"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/NutrientPaste</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealNutrientPaste"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/NutrientPaste</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealNutrientPaste"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Packaged survival meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/graphicData/texPath[text()="RusticMeal/SurvivalPack"]</xpath>
+        <value>
+          <texPath>Things/Item/Meal/SurvivalPack</texPath>
+        </value>
+      </li>
+      <li MayRequire="VanillaExpanded.VTEXE" Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Item/VTE_Meal/SurvivalPack</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Pemmican -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Pemmican"]/graphicData/texPath[text()="RusticMeal/Pemmican"]</xpath>
+        <value>
+          <texPath>Things/Item/Resource/Pemmican</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="Pemmican"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

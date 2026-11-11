@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gives each base meal Rustic Meal Retexture's art when it's made up to the medieval age. Loaded only without Medieval Overhaul. With it, these meals get Rustic Meal Retexture's art only up to the neolithic age, from RusticTribalBaseMeals. -->
+<Defs>
+
+  <!-- Simple meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealSimple</defName>
+    <item>MealSimple</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealSimple_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealFine</defName>
+    <item>MealFine</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealFine_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vegetarian fine meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealFine_Veg</defName>
+    <item>MealFine_Veg</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealFine_Veg_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Carnivore fine meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealFine_Meat</defName>
+    <item>MealFine_Meat</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealFine_Meat_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealLavish</defName>
+    <item>MealLavish</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealLavish_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vegetarian lavish meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealLavish_Veg</defName>
+    <item>MealLavish_Veg</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealLavish_Veg_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Carnivore lavish meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealLavish_Meat</defName>
+    <item>MealLavish_Meat</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealLavish_Meat_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Nutrient paste meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealNutrientPaste</defName>
+    <item>MealNutrientPaste</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealNutrientPaste_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Packaged survival meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealSurvivalPack</defName>
+    <item>MealSurvivalPack</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_MealSurvivalPack_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+</Defs>

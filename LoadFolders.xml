@@ -2,6 +2,13 @@
 <loadFolders>
   <v1.7>
     <li>/</li>
-    <li>1.7</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul">1.7/Mods/MedievalOverhaul</li>
+    <li IfModActive="Jelheb.RusticMealRetexture">1.7/Mods/Rustic</li>
+    <li IfModActive="Jelheb.RusticMealRetexture" IfModNotActive="DankPyon.Medieval.Overhaul">1.7/Mods/RusticBaseMeals</li>
+    <li IfModActiveAll="Jelheb.RusticMealRetexture, DankPyon.Medieval.Overhaul">1.7/Mods/RusticTribalBaseMeals</li>
+    <li IfModActiveAll="Jelheb.RusticMealRetexture, Ludeon.RimWorld.Biotech">1.7/Mods/RusticBiotech</li>
+    <li IfModActiveAll="Jelheb.RusticMealRetexture, Ludeon.RimWorld.Odyssey">1.7/Mods/RusticOdyssey</li>
+    <li IfModActiveAll="Jelheb.RusticMealRetexture, VanillaExpanded.VCookE">1.7/Mods/RusticCookingExpanded</li>
+    <li IfModActiveAll="Jelheb.RusticMealRetexture, VanillaExpanded.VCookEStews">1.7/Mods/RusticStews</li>
   </v1.7>
 </loadFolders>

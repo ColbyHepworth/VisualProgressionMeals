@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Visual Progression: Medieval Overhaul Meals</name>
+  <name>Visual Progression: Meals</name>
   <author>Groovy</author>
   <packageId>groovy.visualprogression.medievaloverhaulmeals</packageId>
-  <modVersion>1.0</modVersion>
+  <modVersion>1.1</modVersion>
   <url>https://github.com/ColbyHepworth/VisualProgressionMedievalOverhaulMeals</url>
   <supportedVersions>
     <li>1.7</li>
   </supportedVersions>
-  <description>Simple, fine and lavish meals and packaged survival meals made before your colony reaches the industrial age use Medieval Overhaul's meal art, and so does nutrient paste you start with or get from other factions. Meals made after use the normal art. Old meals keep their look until they're eaten, so the change happens slowly.
+  <description>Meals made before your colony reaches the industrial age use rustic or medieval meal art. Meals made after use the normal art. Old meals keep their look until they're eaten, so the change happens slowly.
+
+The art comes from Rustic Meal Retexture, Medieval Overhaul or both. This mod contains none.
+
+With Rustic Meal Retexture: simple, fine and lavish meals, packaged survival meals, and Vanilla Cooking Expanded's gourmet meals, bakes, desserts and grills get its art.
+
+With Medieval Overhaul: simple, fine and lavish meals and packaged survival meals get Medieval Overhaul's art.
+
+With both: those meals use Rustic Meal Retexture's art in the tribal age and Medieval Overhaul's in the medieval age, except packaged survival meals, which use Medieval Overhaul's in both. The Vanilla Cooking Expanded meals use Rustic Meal Retexture's until the industrial age.
+
+With neither, this mod does nothing, and the game's log says it loaded no content.
 
 Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one, your colony stays at the age it starts in, so its meals never change.
 
-This mod contains no art. It uses Medieval Overhaul's own images.
+Meals that traders sell, and that other factions' pawns carry, follow that faction's age. Nutrient paste comes from a dispenser, soups and stews from a pot and ruined grills from a grill going cold, not from a bill, so the ones your colony makes use the normal art. They get the look only when you start with them or get them from a faction that hasn't reached the industrial age.
 
-Safe to add to an existing save: Meals already made keep the normal art, and meals made after get the look.
+Rustic Meal Retexture alone changes meal art in every age. With this mod, pemmican, baby food and the survival meal pallet keep the game's art, and its art for Sauced Meals and Bakes, Big and Small, Ashes and the Vanilla Cooking Expanded carnivore and vegetarian meals patch is left as it is.
 
-Safe to remove: Meals with the medieval look go back to the normal art. </description>
+Safe to add to an existing save: Meals already made use the normal art, and meals made after get the look of your colony's age.
+
+Safe to remove: Meals lose their looks. With Rustic Meal Retexture active, its art is then on every meal in every age.</description>
   <modDependencies>
     <li>
       <packageId>groovy.visualprogression.framework</packageId>
@@ -24,14 +36,10 @@ Safe to remove: Meals with the medieval look go back to the normal art. </descri
       <steamWorkshopUrl>steam://url/CommunityFilePage/3834891951</steamWorkshopUrl>
       <downloadUrl>https://github.com/ColbyHepworth/VisualProgressionFramework</downloadUrl>
     </li>
-    <li>
-      <packageId>DankPyon.Medieval.Overhaul</packageId>
-      <displayName>Medieval Overhaul</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/3219596926</steamWorkshopUrl>
-    </li>
   </modDependencies>
   <loadAfter>
     <li>groovy.visualprogression.framework</li>
     <li>DankPyon.Medieval.Overhaul</li>
+    <li>Jelheb.RusticMealRetexture</li>
   </loadAfter>
 </ModMetaData>

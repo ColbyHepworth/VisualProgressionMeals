@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rustic Meal Retexture's meal images are stack images that aren't drawn rotated. -->
+<Defs>
+
+  <ThingStyleDef Name="VPRM_MealStyleBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

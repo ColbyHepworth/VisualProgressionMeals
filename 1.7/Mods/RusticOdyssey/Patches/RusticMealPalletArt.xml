@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Puts back the normal art that Rustic Meal Retexture replaces. It fails when Rustic's art isn't on the item, so a wrong load order shows in the log. -->
+<Patch>
+
+  <!-- Survival meal pallet -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Pallet_SurvivalMeals"]/graphicData/texPath[text()="RusticMeal/Patches/Odyssey/AirdropPallet_SurvivalMeals"]</xpath>
+        <value>
+          <texPath>Things/Building/Ancient/OpenableContainers/AirdropPallet_SurvivalMeals</texPath>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gives each meal Rustic Meal Retexture's art when it's made up to the medieval age. -->
+<Defs>
+
+  <!-- Gourmet meal -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_MealGourmet_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_Gourmet</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_MealGourmet</defName>
+    <item>VCE_MealGourmet</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_MealGourmet_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Simple bake -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_SimpleBake_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_BakeSimple</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_SimpleBake</defName>
+    <item>VCE_SimpleBake</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_SimpleBake_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine bake -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_FineBake_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_BakeFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_FineBake</defName>
+    <item>VCE_FineBake</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_FineBake_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish bake -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_LavishBake_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_BakeLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_LavishBake</defName>
+    <item>VCE_LavishBake</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_LavishBake_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Gourmet bake -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_GourmetBake_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_BakeGourmet</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_GourmetBake</defName>
+    <item>VCE_GourmetBake</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_GourmetBake_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Simple dessert -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_SimpleDessert_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_DessertSimple</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_SimpleDessert</defName>
+    <item>VCE_SimpleDessert</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_SimpleDessert_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine dessert -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_FineDessert_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_DessertFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_FineDessert</defName>
+    <item>VCE_FineDessert</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_FineDessert_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish dessert -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_LavishDessert_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_DessertLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_LavishDessert</defName>
+    <item>VCE_LavishDessert</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_LavishDessert_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Gourmet dessert -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_GourmetDessert_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_DessertGourmet</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_GourmetDessert</defName>
+    <item>VCE_GourmetDessert</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_GourmetDessert_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Simple grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_SimpleGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_GrillSimple</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_SimpleGrill</defName>
+    <item>VCE_SimpleGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_SimpleGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Ruined simple grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_RuinedSimpleGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillSimple</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_RuinedSimpleGrill</defName>
+    <item>VCE_RuinedSimpleGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_RuinedSimpleGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_FineGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_GrillFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_FineGrill</defName>
+    <item>VCE_FineGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_FineGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Ruined fine grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_RuinedFineGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_RuinedFineGrill</defName>
+    <item>VCE_RuinedFineGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_RuinedFineGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_LavishGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_GrillLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_LavishGrill</defName>
+    <item>VCE_LavishGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_LavishGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Ruined lavish grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_RuinedLavishGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_RuinedLavishGrill</defName>
+    <item>VCE_RuinedLavishGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_RuinedLavishGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Gourmet grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_GourmetGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_GrillGourmet</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_GourmetGrill</defName>
+    <item>VCE_GourmetGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_GourmetGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Ruined gourmet grill -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_RuinedGourmetGrill_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillGourmet</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_RuinedGourmetGrill</defName>
+    <item>VCE_RuinedGourmetGrill</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_RuinedGourmetGrill_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Simple soup -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedSoupSimple_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_SoupSimple</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedSoupSimple</defName>
+    <item>VCE_CookedSoupSimple</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedSoupSimple_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine soup -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedSoupFine_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_SoupFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedSoupFine</defName>
+    <item>VCE_CookedSoupFine</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedSoupFine_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish soup -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedSoupLavish_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_SoupLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedSoupLavish</defName>
+    <item>VCE_CookedSoupLavish</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedSoupLavish_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Gourmet soup -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedSoupGourmet_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_SoupGourmet</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedSoupGourmet</defName>
+    <item>VCE_CookedSoupGourmet</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedSoupGourmet_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+</Defs>

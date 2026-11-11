@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Puts back the normal art that Rustic Meal Retexture replaces. It fails when Rustic's art isn't on the item, so a wrong load order shows in the log. -->
+<Patch>
+
+  <!-- Gourmet meal -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_MealGourmet"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_Gourmet"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_Gourmet</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_MealGourmet"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Simple bake -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_SimpleBake"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_BakeSimple"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_BakeSimple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_SimpleBake"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Fine bake -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_FineBake"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_BakeFine"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_BakeFine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_FineBake"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lavish bake -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_LavishBake"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_BakeLavish"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_BakeLavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_LavishBake"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Gourmet bake -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_GourmetBake"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_BakeGourmet"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_BakeGourmet</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_GourmetBake"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Simple dessert -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_SimpleDessert"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_DessertSimple"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_DessertSimple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_SimpleDessert"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Fine dessert -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_FineDessert"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_DessertFine"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_DessertFine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_FineDessert"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lavish dessert -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_LavishDessert"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_DessertLavish"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_DessertLavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_LavishDessert"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Gourmet dessert -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_GourmetDessert"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_DessertGourmet"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_DessertGourmet</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_GourmetDessert"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Simple grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_SimpleGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_GrillSimple"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_GrillSimple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_SimpleGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Ruined simple grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedSimpleGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillSimple"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_RuinedGrills/VCE_ColdGrillSimple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedSimpleGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Fine grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_FineGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_GrillFine"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_GrillFine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_FineGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Ruined fine grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedFineGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillFine"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_RuinedGrills/VCE_ColdGrillFine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedFineGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lavish grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_LavishGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_GrillLavish"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_GrillLavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_LavishGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Ruined lavish grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedLavishGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillLavish"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_RuinedGrills/VCE_ColdGrillLavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedLavishGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Gourmet grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_GourmetGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_GrillGourmet"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_GrillGourmet</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_GourmetGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Ruined gourmet grill -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedGourmetGrill"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_RuinedGrills/VCE_ColdGrillGourmet"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_RuinedGrills/VCE_ColdGrillGourmet</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_RuinedGourmetGrill"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Simple soup -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupSimple"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_SoupSimple"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_SoupSimple</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupSimple"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Fine soup -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupFine"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_SoupFine"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_SoupFine</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupFine"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lavish soup -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupLavish"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_SoupLavish"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_SoupLavish</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupLavish"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Gourmet soup -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupGourmet"]/graphicData/texPath[text()="RusticMeal/Patches/VCE_SoupGourmet"]</xpath>
+        <value>
+          <texPath>Things/Meals/VCE_SoupGourmet</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VCE_CookedSoupGourmet"]/graphicData/drawRotated</xpath>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gives each meal Rustic Meal Retexture's art when it's made up to the medieval age. -->
+<Defs>
+
+  <!-- Simple stew -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedStewSimple_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_StewSimple</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedStewSimple</defName>
+    <item>VCE_CookedStewSimple</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedStewSimple_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine stew -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedStewFine_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_StewFine</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedStewFine</defName>
+    <item>VCE_CookedStewFine</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedStewFine_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish stew -->
+  <ThingStyleDef ParentName="VPRM_MealStyleBase">
+    <defName>VPRM_VCE_CookedStewLavish_Medieval</defName>
+    <graphicData>
+      <texPath>RusticMeal/Patches/VCE_StewLavish</texPath>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_VCE_CookedStewLavish</defName>
+    <item>VCE_CookedStewLavish</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPRM_VCE_CookedStewLavish_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+</Defs>

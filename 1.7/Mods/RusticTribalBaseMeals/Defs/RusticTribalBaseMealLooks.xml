@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- With Medieval Overhaul active too, each base meal made up to the neolithic age gets Rustic Meal Retexture's art. Medieval Overhaul's art follows in the medieval age. Packaged survival meals aren't listed: Medieval Overhaul's cloth wrap suits the tribal age too. -->
+<Defs>
+
+  <!-- Simple meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealSimple_Tribal</defName>
+    <item>MealSimple</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealSimple_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Fine meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealFine_Tribal</defName>
+    <item>MealFine</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealFine_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vegetarian fine meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealFine_Veg_Tribal</defName>
+    <item>MealFine_Veg</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealFine_Veg_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Carnivore fine meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealFine_Meat_Tribal</defName>
+    <item>MealFine_Meat</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealFine_Meat_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Lavish meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealLavish_Tribal</defName>
+    <item>MealLavish</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealLavish_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vegetarian lavish meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealLavish_Veg_Tribal</defName>
+    <item>MealLavish_Veg</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealLavish_Veg_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Carnivore lavish meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealLavish_Meat_Tribal</defName>
+    <item>MealLavish_Meat</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealLavish_Meat_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Nutrient paste meal -->
+  <VisualProgression.ItemLooksDef>
+    <defName>VPRM_MealNutrientPaste_Tribal</defName>
+    <item>MealNutrientPaste</item>
+    <looks>
+      <li><upToAge>Neolithic</upToAge><style>VPRM_MealNutrientPaste_Medieval</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+</Defs>
